@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="icon" href="money.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Orbitron:wght@600&family=Roboto+Serif:opsz,wght@8..144,700&display=swap" rel="stylesheet">
+</head>
+<div class="container">
+<body>
+    <h1 class="container__titulo">Conversor de Moedas</h1>
+    <p class="container__subtitulo">Descubra quanto vale o seu dinheiro em dólares</p>
+    <p>Insira o valor em reais desejado:</p>
+    <input type="number" id="valor" size="2" class="container__input">
+    <button type="submit" onclick="Converter()" class="container__botao">Converter</button>
+    <h4 id="valorConvertido" class="container__resultado"></h4>
+</body>
+<script src="script.js"></script>
+</div>
+</html>

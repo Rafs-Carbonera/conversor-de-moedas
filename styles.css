@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+
+body {
+    background-color: #032b52;
+    background-image: linear-gradient(62deg, #032b52 0%, #23172d 100%);
+    background-repeat: no-repeat; 
+    font-family: 'Orbitron', sans-serif;
+    color: white;       
+}
+
+.container__titulo {
+    padding: 0 0 5px;
+}
+
+.container__subtitulo{
+    padding: 0 0 15px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+.container__input {
+    text-align: center;    
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.container__botao {
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    padding: 10px 36px;
+}
+
+.container__botao:hover {
+    background-color: #032b52;    
+    color: white;
+}
+
+.container__resultado {
+    padding-top: 20px;
+}
